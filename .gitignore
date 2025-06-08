@@ -1,0 +1,31 @@
+# macOSの不要ファイル
+.DS_Store
+
+# Node.js関連（将来npmを使う場合も考慮）
+node_modules/
+
+# ログファイル
+*.log
+
+# 環境変数や秘密情報
+.env
+
+# VS Code設定
+.vscode/
+Oshi_LiveSchedule_Bot.code-workspace
+
+# GASの一時ファイルやバックアップ（念のため）
+*.gs~
+*.bak
+
+# 画像やドキュメントの一時ファイル
+image/
+# README用に残す
+!image/公演通知＆予定登録Bot_ツールイメージ.png
+csv/
+
+# GitHub関連
+.github/
+
+# その他
+Thumbs.db
